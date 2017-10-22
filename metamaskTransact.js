@@ -83,5 +83,22 @@ $(function() {
     initAccessContractForm();
     initDeployContractForm();
     $('#contract-controls-container').hide();
+
+
+function 
+  var lookupName = $('#gitName').val();
+  ens.owner(namehash(lookupName+'.eth'))
+
+
+
+
+
+
+
+
+
+
+
+
   });
 });
